@@ -1,0 +1,1 @@
+ALTER TABLE `events` ADD `free_invitation` ENUM('sim','nao') NOT NULL DEFAULT 'nao' AFTER `rate`, ADD `status_payment` VARCHAR(100) NOT NULL AFTER `free_invitation`;

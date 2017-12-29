@@ -1,0 +1,88 @@
+.well .h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.panel{
+    margin-top:40px;
+}
+
+.panel-success>.panel-heading{
+
+	background-color: #4ec101;  
+}
+
+.panel-body{
+    background-color: #e7e8ea;
+}
+
+.panel-body p{
+    color:#7f3e92;
+    font-weight: bold;
+}
+
+.panel-success {
+    border-color: #e7e8ea;
+}
+
+.badget-eventos{
+    color:#ff1200;
+}
+
+.evento-tabs{
+    list-style:none;
+    padding-left:0;
+    margin-top:15px;
+    padding-bottom:0;
+    margin-bottom:0;
+    border-spacing:0;
+
+}
+.evento-tabs li{
+    float:left;
+    width:25%;
+    padding-top:30px;
+    text-align:center;
+    padding-bottom:0;
+    background:#e7e8ea;
+}
+
+.evento-tabs li a{
+    color:#777;
+    display:inline-block;
+    padding:15px;
+    margin:0;
+    text-decoration:none;
+}
+.evento-tabs li.active a{
+    background:#fff;
+}
+.evento-tabs li a.cardapio{
+    padding:17px 15px 18px;
+}
+.padding-md{
+    padding:30px;
+}
+h5{
+    font-weight:bold;
+}
+.btn-trash{
+    position:absolute;
+    right:15px;
+    bottom:10px;
+    z-index:10000;
+    color:#cc0808;
+    text-shadow:1px 1px 2px #333;
+}
+.btn-trash:hover,
+.btn-trash:focus {
+    color:#b99898;
+}
+.procurar_amigos .resultado-busca{
+    max-height:965px;
+    overflow:auto;
+    overflow-x:hidden;
+}
+.lslide{
+    position:relative;
+}

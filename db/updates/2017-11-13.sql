@@ -1,0 +1,2 @@
+CREATE TABLE `d4f`.`free_invitation` ( `id_free_invitation` INT(12) NOT NULL AUTO_INCREMENT , `value_free_invitation` FLOAT(11,2) NULL DEFAULT NULL , PRIMARY KEY (`id_free_invitation`)) ENGINE = InnoDB;
+INSERT INTO `free_invitation` (`id_free_invitation`, `value_free_invitation`) VALUES (NULL, '10');

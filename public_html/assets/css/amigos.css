@@ -1,0 +1,5 @@
+.lista-users{
+    max-height:280px;
+    overflow:auto;
+    overflow-x:hidden;
+}

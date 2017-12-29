@@ -1,0 +1,1 @@
+INSERT INTO `d4f`.`user_types` (`user_type_id`, `name`, `label`) VALUES ('4', 'Escort', 'Acompanhante');
